@@ -1,9 +1,22 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+body{
+    background: url("calci.avif")no-repeat center center/cover;
+}
 .btn{
     padding: 20px;
     margin: 0 4px;
-    border: 2px solid black;
+    border: 2px solid #03a9f4;
     cursor: pointer;
     border-radius: 5px;
+    width: 60px;
+    font-weight: bold;
 }
 .row{
     margin: 5px 0;
@@ -11,7 +24,7 @@
 .row input{
     margin: 5px 0;
     padding: 6px 0px;
-    border: 2px solid black;
+    border: 2px solid #03a9f4;
     border-radius: 5px;
     font-size: 21px;
 }
